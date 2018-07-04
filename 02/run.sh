@@ -9,3 +9,6 @@ curl http://localhost:10001 | grep "Tomcat/"
 
 docker rm -f tomcat8
 docker rm -f tomcat9
+
+# override a standard entrypoint
+docker run -it --entrypoint=/bin/bash tomcat:8.0
