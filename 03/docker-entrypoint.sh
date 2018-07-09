@@ -2,5 +2,5 @@
 
 echo "Starting Tomcat.."
 
-cd /usr/share/tomcat8
-exec catalina.sh run
+cd /usr/share/tomcat8/bin/ 
+exec ./catalina.sh run
