@@ -1,1 +1,8 @@
-Check that Docker runs and try hello world.
+# Docker installation test
+
+docker --version
+
+docker version
+
+docker info
+
